@@ -26,7 +26,7 @@ sudo pacman -S --needed mesa lib32-mesa vulkan-intel lib32-vulkan-intel
 ```
 Скачиваем необходимые зависимости:
 ```bash
-sudo pacman -S wine winetricks nodejs npm python python-pip gcc curl ripgrep fd fzf lazygit xsel jre17-openjdk otf-firamono-nerd ttf-firacode-nerd noto-fonts noto-fonts-cjk noto-fonts-emoji polkit-kde-agent wl-clipboard brightnessctl playerctl
+sudo pacman -S wine winetricks nodejs npm python python-pip gcc curl ripgrep fd fzf lazygit xsel jre17-openjdk otf-firamono-nerd ttf-firacode-nerd noto-fonts noto-fonts-cjk noto-fonts-emoji polkit-kde-agent wl-clipboard brightnessctl playerctl gtk-engine-murrine
 ```
 Скачиваем приложения:
 ```bash
@@ -66,4 +66,8 @@ set tide_character_icon "~>"
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
 cd WhiteSur-gtk-theme/
 ./tweaks.sh -f flat
+```
+#### Устанавливаем тему и иконки
+```bash
+yay -S tokyonight-gtk-theme-git
 ```
