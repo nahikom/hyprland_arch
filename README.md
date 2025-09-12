@@ -1,10 +1,12 @@
 # Hyprland с Arch
+## Перед самой установкой
 iwctl
 
 station wlan0 connect ""
 
-## В арчинстал добавляем обязательные пакеты: git, pipewire-jack, hyprpaper, waybar, neovim, firefox.
+В арчинстал добавляем обязательные пакеты: git, pipewire-jack, hyprpaper, waybar, neovim, firefox.
 
+## После установки
 Включаем интернет:
 
 nmcli device wifi connect "" password ""
@@ -36,3 +38,7 @@ systemctl --user enable wireplumber pipewire pipewire-pulse
 Меняем оболочку на fish:
 
 chsh -s $(which fish)
+
+### Настройка окружения и кастомизация
+Tide для fish:
+fisher install IlanCosman/tide@v6
