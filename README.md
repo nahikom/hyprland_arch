@@ -40,5 +40,25 @@ systemctl --user enable wireplumber pipewire pipewire-pulse
 chsh -s $(which fish)
 
 ### Настройка окружения и кастомизация
-Tide для fish:
+
+#### Установка LazyVim:
+
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+
+nvim
+
+В /usr/share/applications/nvim.desktop исправить: 
+
+Exec=kitty nvim %F
+
+Terminal=false
+
+#### Tide для fish:
+
 fisher install IlanCosman/tide@v6
+
+В конфиге ~/.config/fish/config.fish добавить в конец:
+
+set -U fish_greeting
+
+set tide_character_icon "~>"
