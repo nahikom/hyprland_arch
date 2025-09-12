@@ -1,8 +1,9 @@
 # Hyprland с Arch
 ## Перед самой установкой
+```bash
 iwctl
-
 station wlan0 connect ""
+```
 
 В арчинстал добавляем обязательные пакеты: git, pipewire-jack, hyprpaper, waybar, neovim, firefox.
 
