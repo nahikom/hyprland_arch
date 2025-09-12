@@ -61,3 +61,9 @@ fisher install IlanCosman/tide@v6
 set -U fish_greeting
 set tide_character_icon "~>"
 ```
+#### Меняем тему Firefox
+```bash
+git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
+cd WhiteSur-gtk-theme/
+./tweaks.sh -f flat
+```
