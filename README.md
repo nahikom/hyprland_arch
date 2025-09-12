@@ -26,11 +26,11 @@ sudo pacman -S --needed mesa lib32-mesa vulkan-intel lib32-vulkan-intel
 ```
 Скачиваем необходимые зависимости:
 ```bash
-sudo pacman -S wine winetricks nodejs npm python python-pip gcc curl ripgrep fd fzf lazygit xsel jre17-openjdk otf-firamono-nerd ttf-firacode-nerd noto-fonts noto-fonts-cjk noto-fonts-emoji polkit-kde-agent wl-clipboard brightnessctl playerctl gtk-engine-murrine
+sudo pacman -S --needed wine winetricks nodejs npm python python-pip gcc curl ripgrep fd fzf lazygit xsel jre17-openjdk otf-firamono-nerd ttf-firacode-nerd noto-fonts noto-fonts-cjk noto-fonts-emoji polkit-kde-agent wl-clipboard brightnessctl playerctl gtk-engine-murrine network-manager-applet 
 ```
 Скачиваем приложения:
 ```bash
-sudo pacman -S thunar file-roller thunar-archive-plugin thunar-volman nwg-look fish fisher blueman telegram-desktop swaync rofi 
+sudo pacman -S --needed thunar file-roller thunar-archive-plugin thunar-volman nwg-look fish fisher blueman telegram-desktop swaync rofi 
 ```
 Включаем службы pipewire для автозапуска:
 ```bash
