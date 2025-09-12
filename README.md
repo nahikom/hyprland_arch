@@ -3,7 +3,7 @@ iwctl
 
 station wlan0 connect ""
 
-В арчинстал добавляем обязательные пакеты: git, pipewire-jack, hyprpaper, waybar, neovim, firefox.
+## В арчинстал добавляем обязательные пакеты: git, pipewire-jack, hyprpaper, waybar, neovim, firefox.
 
 Включаем интернет:
 
