@@ -71,3 +71,9 @@ cd WhiteSur-gtk-theme/
 ```bash
 yay -S tokyonight-gtk-theme-git
 ```
+#### Устанавливаем тему grub
+```bash
+git clone https://github.com/vinceliuice/grub2-themes
+cd grub2-themes
+sudo ./install.sh -t whitesur -s 1080p -i white
+```
