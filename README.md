@@ -26,7 +26,7 @@ sudo pacman -S --needed mesa lib32-mesa vulkan-intel lib32-vulkan-intel
 ```
 Скачиваем необходимые зависимости:
 ```bash
-sudo pacman -S --needed wine winetricks nodejs npm python python-pip gcc curl ripgrep fd fzf lazygit xsel jre17-openjdk otf-firamono-nerd ttf-firacode-nerd noto-fonts noto-fonts-cjk noto-fonts-emoji wl-clipboard brightnessctl playerctl gtk-engine-murrine network-manager-applet os-prober
+sudo pacman -S --needed wine winetricks nodejs npm python python-pip gcc curl ripgrep fd fzf lazygit xsel jre17-openjdk otf-firamono-nerd ttf-firacode-nerd noto-fonts noto-fonts-cjk noto-fonts-emoji wl-clipboard brightnessctl playerctl gtk-engine-murrine network-manager-applet os-prober git-lfs less
 ```
 Скачиваем приложения:
 ```bash
