@@ -78,6 +78,16 @@ cd WhiteSur-gtk-theme/
 ```bash
 yay -S tokyonight-gtk-theme-git
 ```
+#### Устанавливаем тему SDDM
+```bash
+git clone -b main --depth=1 https://github.com/uiriansan/SilentSDDM && cd SilentSDDM && ./install.sh
+cd
+sudoedit /usr/share/sddm/themes/silent/metadata.desktop
+```
+ConfigFile=configs/rei.conf
+```bash
+cd /usr/share/sddm/themes/silent/ && change_avatar.sh user /path/to/image
+```
 #### Замена Windows Boot Manager на GRUB
 ```bash
 sudo nvim /etc/default/grub
