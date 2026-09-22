@@ -55,7 +55,7 @@ Terminal=false
 ```
 В Thunar: Edit -> Configure custom actions -> +
 ```bash
-Open with suoedit
+Open with sudoedit
 Edit with root rights via sudoedit
 kitty -e sudoedit %F
 ```
